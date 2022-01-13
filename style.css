@@ -226,3 +226,11 @@ header ul li a {
     margin: 5px 0;
 
 }
+
+.social_media_icon li a:hover{
+    background-color: rgb(94, 200, 219);
+
+   
+
+}
+
