@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&family=Twinkle+Star&family=Ubuntu:wght@300&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:sans-serif;
 
 }
 
@@ -21,13 +25,14 @@ section{
     position: relative;
     width: 1200px;
     min-height: 650px;
-    background: rgba(27, 25, 25, 0.1);
+    background: rgba(255, 255, 255, 0.383);
     box-shadow: 0 15px 35px rgba(255,255,255,0.05);
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
+    
    
 }
 
@@ -55,6 +60,8 @@ header .logo{
     text-decoration: none;
     font-size: 2em;
     transition: 0.2s;
+    font-family:cursive;
+    font-style: italic;
 }
 
 header .logo:hover{
@@ -71,13 +78,57 @@ header ul li{
     list-style: none;
     margin: 0 10px;
     font-size: 24px;
+    transition: 0.2s;
+    border-radius: 15px;
 }
+header ul li:hover{
+   transform: scale(1.09);
+   box-shadow:0 10px 20px rgba(157, 234, 255, 0.932);
+}
+
 
 header ul li a {
     text-decoration: none;
+    cursor: pointer;
     font-weight: 500;
     color: #8a2435;
     padding: 8px 15px;
-    border-radius: 25px;
+   
 }
 
+
+.content{
+    position:absolute;  
+    margin-left: -100px;  
+    max-width: 650px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    padding: 40px;
+    padding-left: 85px;
+    padding-bottom: 50px;
+    box-shadow:0 5px 8px rgba(161, 161, 161, 0.932);
+    transition: 0.3s;
+
+}
+
+.content:hover{
+    transition: 0.3s;
+    transform: scale(1.01);
+    box-shadow:0 5px 8px rgba(170, 240, 248, 0.932);
+
+}
+
+.content h2{
+    font-size: 3em;
+    color:#97545f;
+}
+
+
+.content p{
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #8a2435;
+    font-weight: 500;
+}
