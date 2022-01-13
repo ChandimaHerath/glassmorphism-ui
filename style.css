@@ -193,3 +193,18 @@ header ul li a {
     width: 450px;
    
 }
+
+.social_media_icon{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: -25px;
+
+}
+
+.social_media_icon li{
+    list-style-type: none;
+    text-decoration: none;
+}
