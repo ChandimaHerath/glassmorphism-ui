@@ -26,4 +26,4 @@
 ---
 
        (Main View)
-![Screenshot.png](Screenshot.png)
+![Screenshot.png](images/Screenshot.png)
