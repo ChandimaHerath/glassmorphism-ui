@@ -23,4 +23,7 @@
 * Right click on the index.html file
 * Open with the live server
 
+---
 
+       (Main View)
+![Screenshot.png](Screenshot.png)
