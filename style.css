@@ -155,7 +155,6 @@ header ul li a {
   
 }
 .reachme_icon_wrapper:hover{
-    box-shadow:0 5px 8px rgba(170, 240, 248, 0.932);
     transform: scale(1.05);
 
 
@@ -166,4 +165,17 @@ header ul li a {
   text-decoration: none;
   color: #862838;
   font-weight: 600;
+}
+
+.image_box{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    background-color: #8a2435;
+    right: 0;
+}
+
+.image_box img{
+    height: 500px;
+    width: 450px;
 }
