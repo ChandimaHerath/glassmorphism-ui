@@ -171,11 +171,25 @@ header ul li a {
     height: 250px;
     width: 250px;
     position: absolute;
-    background-color: #8a2435;
-    right: 0;
+    right: 230px;
+    bottom:320px;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0%, 100%{
+
+        transform: translateY(-10px);
+    }
+
+    50%{
+        transform: translateY(10px);
+
+    }
 }
 
 .image_box img{
     height: 500px;
     width: 450px;
+   
 }
